@@ -26,9 +26,13 @@ body {
   height: max-content;
 }
 article {
-  padding: 0px 80px 10px 80px;
+  padding: 0px 2em 0px 2em;
 }
-h1,
+h1{
+  font-size: 30px;
+  color: rgb(19, 18, 18);
+  font-family: "Young Serif", serif;
+}
 h2 {
   color: #7d5148;
   font-family: "Young Serif", serif;
@@ -38,7 +42,8 @@ h2 {
   padding: 20px;
   border-radius: 5px;
 }
-p {
+li , p{
+  color: rgb(66, 66, 66);
 }
 
 header > div#imagem {
